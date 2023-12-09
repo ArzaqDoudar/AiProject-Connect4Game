@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Patrick Hand', cursive !important;
+}
+:root {
+  --cell-size: 100px;
+  --mark-size: calc(var(--cell-size) * .9);
+}
+.board{
+    height: calc(100vh - 12rem);
+    width: calc(100vh - 5rem);
+    
+}
+body{
+  background-image: url(./img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+canvas {
+  display: block;
+}
+.bg-main-color{
+  background-color: #20b7bd !important;
+  color: #fff !important;
+}
+.main-color{
+  color: #20b7bd !important;
+}
+/* .font{
+   font-size: 2rem;
+   font-family: 'Kaushan Script', cursive;
+} */
+.btn:hover {
+  color: #20b7bd !important;
+  background-color: white !important;
+  border-color: #20b7bd !important;
+}
+#backgroundImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.5)), url('.Img/bg.png');
+  background-size: cover;
+}
+
+#playerNoMsg{
+  font-size: 4rem;
+}
+
+/* #eefa6c   93 98 42 */
